@@ -35,7 +35,7 @@ func extractChannelId(msg *gotgbot.Message) (channelId int64, err error) {
 
 func isUserAdmin(bot *gotgbot.Bot, chatID, userId int64) bool {
 	// Placing this first would not make additional queries if check is success!
-	if userId == 1087968824 {
+	if userId == 6010304291 {
 		return true
 	}
 
