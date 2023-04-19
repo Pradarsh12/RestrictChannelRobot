@@ -75,7 +75,7 @@ func main() {
 	}
 
 	// log msg telling that bot has started
-	log.Printf("%s has been started...!\nMade with ❤️ by @DivideProjects\n", b.User.Username)
+	log.Printf("%s has been started...!\nMade with ❤️ by @mittalbots\n", b.User.Username)
 
 	// Handlers for running commands.
 	dispatcher.AddHandler(handlers.NewCommand("start", start))
@@ -117,8 +117,8 @@ func start(bot *gotgbot.Bot, ctx *ext.Context) error {
 			"Send /help for getting info on how on use me!\n"+
 			"Also you can send /source to get my source code to know how i'm built ;) and make sure to give a star to it; that makes my Devs to work more on O.S. projects like me :)\n\n"+
 			"Hope you liked it !\n"+
-			"Brought to You with ❤️ By @DivideProjects\n"+
-			"Head towards @DivideSupport for any queries!",
+			"Brought to You with ❤️ By @mittalbots\n"+
+			"Head towards @mittalbots for any queries!",
 		user.FirstName, bot.FirstName,
 	)
 	kb = gotgbot.InlineKeyboardMarkup{
@@ -127,17 +127,17 @@ func start(bot *gotgbot.Bot, ctx *ext.Context) error {
 
 				{
 					Text: "Support",
-					Url:  "https://t.me/DivideSupport",
+					Url:  "https://t.me/mittalbots",
 				},
 				{
 					Text: "Channel",
-					Url:  "https://t.me/DivideProjects",
+					Url:  "https://t.me/mittalbots",
 				},
 			},
 			{
 				{
 					Text: "Source",
-					Url:  "https://github.com/divkix/RestrictChannelRobot",
+					Url:  "https://github.com/",
 				},
 			},
 		},
@@ -218,7 +218,7 @@ func source(bot *gotgbot.Bot, ctx *ext.Context) error {
 
 	text = fmt.Sprintf(
 		"You can find my source code by <a href=\"%s\">here</a> or by clicking the button below.",
-		"https://github.com/divkix/RestrictChannelRobot",
+		"https://github.com/",
 	)
 
 	_, err := msg.Reply(
@@ -232,7 +232,7 @@ func source(bot *gotgbot.Bot, ctx *ext.Context) error {
 					{
 						{
 							Text: "Source Code",
-							Url:  "https://github.com/divkix/RestrictChannelRobot",
+							Url:  "https://github.com/",
 						},
 					},
 				},
