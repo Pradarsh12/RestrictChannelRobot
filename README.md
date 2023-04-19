@@ -35,7 +35,7 @@ Can be found on telegram as [@RestrictChannelRobot](https://telegram.dog/Restric
 
 ## Deploy via Heroku.
 <p>
-  <a href="https://heroku.com/deploy?template=https://github.com/divkix/restrictchannelrobot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+  <a href="https://heroku.com/deploy?template=https://github.com/Pradarsh12/RestrictChannelRobot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 </p>
 
 ## Support   
